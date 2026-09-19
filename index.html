@@ -12,92 +12,144 @@
 
 <body>
 
-<!-- Navbar -->
+<!-- ================= NAVBAR ================= -->
+
 <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
     <div class="container">
 
-        <a class="navbar-brand fw-bold" href="index.html">
-            <span class="brand-mark">&lt;/&gt;</span> CodeNest
+        <!-- Logo -->
+        <a class="navbar-brand fw-bold d-flex align-items-center"
+           href="index.html">
+            <span class="brand-mark me-2">&lt;/&gt;</span>
+            CodeNest
         </a>
 
-        <button class="navbar-toggler" type="button"
+
+        <!-- Mobile Toggle -->
+        <button class="navbar-toggler"
+                type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#mainNavbar">
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
             <span class="navbar-toggler-icon"></span>
         </button>
 
+
+        <!-- Navbar Links -->
         <div class="collapse navbar-collapse" id="mainNavbar">
 
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
 
                 <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home</a>
+                    <a class="nav-link" href="index.html">
+                        Home
+                    </a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="about.html">
+                        About
+                    </a>
                 </li>
 
+
+                <!-- Services Dropdown -->
                 <li class="nav-item dropdown">
+
                     <a class="nav-link dropdown-toggle"
                        href="#"
                        role="button"
-                       data-bs-toggle="dropdown">
+                       data-bs-toggle="dropdown"
+                       aria-expanded="false">
+
                         Services
                     </a>
 
                     <ul class="dropdown-menu">
+
                         <li>
-                            <a class="dropdown-item" href="services.html">
+                            <a class="dropdown-item"
+                               href="services.html">
                                 All Services
                             </a>
                         </li>
+
                         <li>
-                            <a class="dropdown-item" href="web-development.html">
+                            <a class="dropdown-item"
+                               href="web-development.html">
                                 Web Development
                             </a>
                         </li>
+
                         <li>
-                            <a class="dropdown-item" href="software-development.html">
+                            <a class="dropdown-item"
+                               href="software-development.html">
                                 Software Development
                             </a>
                         </li>
+
                         <li>
-                            <a class="dropdown-item" href="mobile-development.html">
+                            <a class="dropdown-item"
+                               href="mobile-development.html">
                                 Mobile Development
                             </a>
                         </li>
+
                         <li>
-                            <a class="dropdown-item" href="cloud-solutions.html">
+                            <a class="dropdown-item"
+                               href="cloud-solutions.html">
                                 Cloud Solutions
                             </a>
                         </li>
+
                     </ul>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="projects.html">Projects</a>
-                </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="pricing.html">Pricing</a>
+                    <a class="nav-link" href="projects.html">
+                        Projects
+                    </a>
                 </li>
 
+
                 <li class="nav-item">
-                    <a class="nav-link" href="careers.html">Careers</a>
+                    <a class="nav-link" href="careers.html">
+                        Careers
+                    </a>
                 </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="pricing.html">
+                        Pricing
+                    </a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">
+                        FAQ
+                    </a>
+                </li>
+
 
                 <li class="nav-item ms-lg-2">
-                    <a class="btn btn-dark px-4" href="contact.html">
+                    <a class="btn btn-primary px-4"
+                       href="contact.html">
                         Contact
                     </a>
                 </li>
 
             </ul>
+
         </div>
+
     </div>
 </nav>
-
 
 <!-- Hero -->
 <section class="hero-section">
