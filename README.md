@@ -6,6 +6,11 @@ A responsive multi-page business website for a fictional software development co
 
 https://jayakiranyedla.github.io/codenest-technologies/
 
+## Website Preview
+
+![CodeNest Technologies Website Preview](preview.png)
+
+
 ## GitHub Repository
 
 https://github.com/jayakiranyedla/codenest-technologies
