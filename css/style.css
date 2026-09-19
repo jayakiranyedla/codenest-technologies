@@ -1,0 +1,596 @@
+/* General */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #212529;
+}
+
+a {
+    text-decoration: none;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+
+/* Navbar */
+
+.navbar-brand {
+    letter-spacing: -0.5px;
+}
+
+.brand-mark {
+    color: #0d6efd;
+    margin-right: 5px;
+}
+
+.nav-link {
+    color: #555;
+    margin-left: 8px;
+}
+
+.nav-link:hover {
+    color: #0d6efd;
+}
+
+
+/* Hero */
+
+.hero-section {
+    background: #f8f9fa;
+}
+
+.small-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    color: #0d6efd;
+}
+
+.hero-section h1 {
+    max-width: 700px;
+}
+
+.hero-section .lead {
+    max-width: 650px;
+    line-height: 1.7;
+}
+
+
+/* Code card */
+
+.code-card {
+    background: #17191c;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.code-header {
+    background: #24272b;
+    padding: 12px 15px;
+}
+
+.code-header span {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #777;
+    margin-right: 5px;
+}
+
+.code-body {
+    padding: 25px;
+}
+
+.code-body pre {
+    margin: 0;
+    color: #ddd;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+
+/* Section heading */
+
+.section-heading {
+    max-width: 650px;
+    margin: auto;
+}
+
+
+/* Services */
+
+.service-card {
+    padding: 30px 25px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.service-card:hover {
+    transform: translateY(-4px);
+    border-color: #0d6efd;
+}
+
+.service-card h5 {
+    margin-top: 20px;
+}
+
+.service-card p {
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+.service-card a {
+    font-weight: 600;
+    color: #0d6efd;
+}
+
+.service-icon {
+    width: 55px;
+    height: 55px;
+    border-radius: 8px;
+    background: #eaf2ff;
+    color: #0d6efd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+/* Feature boxes */
+
+.feature-box {
+    background: white;
+    padding: 25px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+}
+
+.feature-box strong {
+    color: #0d6efd;
+    font-size: 13px;
+}
+
+.feature-box h5 {
+    margin-top: 10px;
+}
+
+.feature-box p {
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+
+/* CTA */
+
+.cta-section {
+    background: #0d6efd;
+    color: white;
+    padding: 70px 0;
+}
+
+.cta-section p {
+    opacity: 0.9;
+}
+
+
+/* Footer */
+
+.footer {
+    background: #17191c;
+    color: #bbb;
+    padding: 60px 0 25px;
+}
+
+.footer h4,
+.footer h6 {
+    color: white;
+}
+
+.footer a {
+    display: block;
+    color: #aaa;
+    margin: 8px 0;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.footer hr {
+    border-color: #444;
+}
+
+
+/* Page header */
+
+.page-header {
+    background: #f8f9fa;
+    padding: 80px 0;
+}
+
+.page-header h1 {
+    font-weight: 700;
+}
+
+
+/* Common cards */
+
+.info-card {
+    padding: 30px;
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.info-card p {
+    color: #6c757d;
+    line-height: 1.7;
+}
+
+
+/* Project cards */
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    height: 100%;
+    background: white;
+}
+
+.project-card h5 {
+    margin-top: 15px;
+}
+
+.project-card p {
+    color: #6c757d;
+}
+
+
+/* Pricing */
+
+.price-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 30px;
+    height: 100%;
+}
+
+.price-card.featured {
+    border: 2px solid #0d6efd;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+/* Forms */
+
+.form-control,
+.form-select {
+    padding: 12px;
+}
+
+.form-control:focus,
+.form-select:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+
+/* Responsive */
+
+@media (max-width: 767px) {
+
+    .section-padding {
+        padding: 55px 0;
+    }
+
+    .hero-section h1 {
+        font-size: 38px;
+    }
+
+    .page-header {
+        padding: 55px 0;
+    }
+
+    .code-body pre {
+        font-size: 12px;
+    }
+
+}
+
+/* =====================================================
+   CONTACT PAGE
+===================================================== */
+
+.contact-header {
+    background: #f8f9fa;
+    padding: 90px 20px;
+    text-align: center;
+}
+
+.contact-header h1 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #212529;
+    margin-top: 12px;
+}
+
+.contact-header p {
+    max-width: 720px;
+    margin: 20px auto 0;
+    color: #59636e;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+
+/* =====================================================
+   CONTACT SECTION
+===================================================== */
+
+.contact-section {
+    padding: 85px 0;
+    background: #ffffff;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #17202a;
+}
+
+.contact-description {
+    color: #59636e;
+    font-size: 17px;
+    line-height: 1.7;
+    max-width: 560px;
+}
+
+
+/* =====================================================
+   CONTACT DETAIL CARDS
+===================================================== */
+
+.contact-detail-card {
+    background: #ffffff;
+    border: 1px solid #e1e5e9;
+    border-radius: 10px;
+    padding: 28px;
+    margin-top: 18px;
+}
+
+.contact-detail-card:hover {
+    border-color: #b9d3f7;
+}
+
+.contact-icon {
+    width: 60px;
+    height: 60px;
+    background: #eaf2ff;
+    color: #0d6efd;
+    border-radius: 9px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+    font-weight: 700;
+
+    margin-bottom: 18px;
+}
+
+.contact-detail-card h5 {
+    font-size: 21px;
+    color: #17202a;
+    margin-bottom: 8px;
+}
+
+.contact-detail-card p {
+    color: #69737d;
+    margin-bottom: 5px;
+}
+
+.contact-detail-card a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+
+/* =====================================================
+   CONTACT FORM
+===================================================== */
+
+.contact-form-box {
+    background: #ffffff;
+    border: 1px solid #e1e5e9;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.04);
+}
+
+.contact-form-box h3 {
+    font-size: 30px;
+    color: #17202a;
+}
+
+.contact-form-box > p {
+    color: #69737d;
+}
+
+.contact-form-box .form-label {
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.contact-form-box .form-control,
+.contact-form-box .form-select {
+    min-height: 52px;
+    border: 1px solid #d9dee3;
+    border-radius: 7px;
+    padding: 12px 14px;
+}
+
+.contact-form-box textarea.form-control {
+    min-height: 145px;
+    resize: vertical;
+}
+
+.contact-form-box .form-control:focus,
+.contact-form-box .form-select:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.12);
+}
+
+.contact-submit {
+    padding: 12px 28px;
+}
+
+
+/* =====================================================
+   CONTACT PROCESS
+===================================================== */
+
+.contact-process {
+    padding: 85px 0;
+    background: #f8f9fa;
+}
+
+.process-heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.process-heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.process-heading p {
+    color: #69737d;
+    margin-top: 10px;
+}
+
+.process-card {
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #e1e5e9;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.process-number {
+    width: 52px;
+    height: 52px;
+
+    border-radius: 8px;
+
+    background: #eaf2ff;
+    color: #0d6efd;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+.process-card h5 {
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.process-card p {
+    color: #69737d;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+
+/* =====================================================
+   CONTACT CTA
+===================================================== */
+
+.contact-cta {
+    background: #0d6efd;
+    color: #ffffff;
+    text-align: center;
+    padding: 75px 20px;
+}
+
+.contact-cta h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.contact-cta p {
+    font-size: 17px;
+    margin: 15px 0 28px;
+}
+
+.contact-cta .btn {
+    padding: 11px 28px;
+}
+
+
+/* =====================================================
+   CONTACT LOGO
+===================================================== */
+
+.contact-header + .contact-section {
+    position: relative;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 767px) {
+
+    .contact-header {
+        padding: 65px 20px;
+    }
+
+    .contact-header h1 {
+        font-size: 34px;
+    }
+
+    .contact-header p {
+        font-size: 16px;
+    }
+
+    .contact-section,
+    .contact-process {
+        padding: 60px 0;
+    }
+
+    .contact-section h2,
+    .process-heading h2,
+    .contact-cta h2 {
+        font-size: 29px;
+    }
+
+    .contact-form-box {
+        padding: 25px;
+    }
+
+}
